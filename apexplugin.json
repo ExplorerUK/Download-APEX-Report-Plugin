@@ -1,0 +1,35 @@
+{
+  "name" : "IG Download Grid View",
+  "version" : "19.2.0",
+  "description" : "An implementation of the built-in Oracle APEX IG file download functionality",
+  "keywords" : ["ig", "grid", "report", "download", "CSV", "HTML"],
+  "homepage" : "https://github.com/ExplorerUK/IG-Download-Grid-View-Plugin",
+  "bugs" : {
+    "url" : "https://github.com/ExplorerUK/IG-Download-Grid-View-Plugin/issues",
+    "email" : "matt.mulvaney@explorer.uk.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Matt Mulvaney",
+    "email" : "matt.mulvaney@explorer.uk.com",
+    "url" : "https://explorer.co.uk/blog",
+    "twitter" : "Matt_Mulvaney",
+    "donationUrl" : "https://www.justgiving.com/saintmichaelshospice"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ExplorerUK/IG-Download-Grid-View-Plugin.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["19.2.0"],
+      "plugin" : {
+        "internalName" : "COM.UK.EXPLORER.IGDLGV",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=9991",
+        "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/IG-Download-Grid-View-Plugin/master/preview.gif"
+      }
+    }
+  }
+}
