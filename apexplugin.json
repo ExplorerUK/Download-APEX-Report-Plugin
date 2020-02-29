@@ -1,11 +1,11 @@
 {
-  "name" : "IG Download Grid View",
-  "version" : "19.2.0",
-  "description" : "An implementation of the built-in Oracle APEX IG file download functionality",
-  "keywords" : ["ig", "grid", "report", "download", "CSV", "HTML"],
-  "homepage" : "https://github.com/ExplorerUK/IG-Download-Grid-View-Plugin",
+  "name" : "Download APEX Report",
+  "version" : "19.2.1",
+  "description" : "Downloads Interactive Grid, Interactive Report and Classic Report in a variety of formats",
+  "keywords" : ["ig", "grid", "report", "download", "interactive", "PDF", "CSV", "HTML"],
+  "homepage" : "https://github.com/ExplorerUK/Download-APEX-Report-Plugin",
   "bugs" : {
-    "url" : "https://github.com/ExplorerUK/IG-Download-Grid-View-Plugin/issues",
+    "url" : "https://github.com/ExplorerUK/Download-APEX-Report-Plugin/issues",
     "email" : "matt.mulvaney@explorer.uk.com"
   },
   "license" : "MIT",
@@ -18,17 +18,17 @@
   },
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/ExplorerUK/IG-Download-Grid-View-Plugin.git"
+    "url" : "https://github.com/ExplorerUK/Download-APEX-Report-Plugin.git"
   },
  "oracle" : {
     "versions" : ["11.2.0.1", "12.1.0.1"],
     "apex" : {
       "versions" : ["19.2.0"],
       "plugin" : {
-        "internalName" : "COM.UK.EXPLORER.IGDLGV",
+        "internalName" : "COM.UK.EXPLORER.DLAR",
         "type" : "dynamic action",
         "demo" : "https://apex.oracle.com/pls/apex/f?p=9991",
-        "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/IG-Download-Grid-View-Plugin/master/preview.gif"
+        "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/Download-APEX-Report-Plugin/master/preview.gif"
       }
     }
   }
